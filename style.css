@@ -205,3 +205,59 @@ body {
 .we-build {
 	margin-right: 60px;
 }
+
+.story-images-heading {
+	font-weight: 800;
+	font-size: 24px;
+	margin: 10px;
+	line-height: 1.3;
+	letter-spacing: 0.19px;
+	text-align: left;
+	color: white;
+}
+
+.our-capabilities-section {
+	margin-top: 200px;
+	max-height: 446px;
+	max-width: 940px;
+}
+
+.capabilities-content-wrapper {
+	display: flex;
+	align-items: space-between;
+	gap: 100px;
+}
+
+.our-capabilities-heading {
+	font-weight: 700;
+	font-size: 18px;
+	letter-spacing: 2.31px;
+	white-space: nowrap;
+}
+
+.our-capabilites-subheading {
+	font-size: 11px;
+	line-height: 1.9;
+	letter-spacing: 0.2px;
+	margin-left: 10px;
+	text-align: left;
+	white-space: nowrap;
+}
+
+.our-capabilities-heading,
+.our-capabilites-subheading {
+	color: #48555b;
+}
+
+.our-capabilities-button {
+	width: 150px;
+	height: 40px;
+	background-color: #00a4e5;
+	border: none;
+	font-weight: 700;
+	color: white;
+	font-size: 13px;
+	letter-spacing: 0.6px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
