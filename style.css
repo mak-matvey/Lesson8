@@ -135,7 +135,7 @@ body {
 
 .story-content-wrapper {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: flex-start;
 	width: 100%;
 	margin-top: 15px;
@@ -155,16 +155,11 @@ body {
 	margin-bottom: 30px;
 	display: flex;
 	align-items: flex-end;
-	justify-content: space-between;
 }
 
 .we-plan {
-	margin-left: 80px;
-	height: 224px;
-	width: 140px;
 	background-image: url('img/Bitmap.jpeg');
-	background-size: cover;
-	background-position: center;
+	margin-left: 70px;
 }
 
 .story-content img {
@@ -185,25 +180,21 @@ body {
 }
 
 .we-manage {
-	height: 224px;
-	width: 140px;
 	background-image: url('img/Bitmap(1).jpeg');
-	background-size: cover;
-	background-position: center;
 }
 
 .we-build {
-	height: 224px;
-	width: 140px;
 	background-image: url('img/Bitmap(2).jpeg');
-	background-size: cover;
-	background-position: center;
 }
 
 .we-plan,
 .we-manage,
 .we-build {
-	margin-right: 60px;
+	margin-right: 25px;
+	height: 224px;
+	width: 140px;
+	background-size: cover;
+	background-position: center;
 }
 
 .story-images-heading {
@@ -225,7 +216,7 @@ body {
 .capabilities-content-wrapper {
 	display: flex;
 	align-items: space-between;
-	gap: 100px;
+	gap: 70px;
 }
 
 .our-capabilities-heading {
@@ -260,4 +251,47 @@ body {
 	letter-spacing: 0.6px;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
+}
+.capabilities-descrition {
+	margin-top: 60px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.project,
+.structure,
+.factory {
+	width: 295px;
+	height: 330px;
+	border: 1px solid #e6e6e6;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-around;
+}
+
+.capabilities-images,
+.capabilties-description-heading,
+.capabilities-description-subheading {
+	margin-left: 15px;
+}
+
+.capabilties-description-heading,
+.capabilities-description-subheading {
+	color: #48555B;
+}
+
+.capabilties-description-heading {
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 0.43px;
+	line-height: 1.4;
+}
+
+.capabilities-description-subheading {
+	font-size: 13px;
+	letter-spacing: 0.19px;
+	line-height: 2;
+	text-align: left;
 }
