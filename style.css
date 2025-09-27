@@ -240,7 +240,8 @@ body {
 	color: #48555b;
 }
 
-.our-capabilities-button {
+.our-capabilities-button,
+.hero-build-button {
 	width: 150px;
 	height: 40px;
 	background-color: #00a4e5;
@@ -279,7 +280,7 @@ body {
 
 .capabilties-description-heading,
 .capabilities-description-subheading {
-	color: #48555B;
+	color: #48555b;
 }
 
 .capabilties-description-heading {
@@ -294,4 +295,30 @@ body {
 	letter-spacing: 0.19px;
 	line-height: 2;
 	text-align: left;
+}
+
+.hero-build {
+	margin: 80px 0;
+	padding: 200px 0;
+	min-height: 100vh;
+	width: 100%;
+	background-image: url('img/bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.hero-build .hero-build-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+}
+
+.hero-build-heading {
+	font-weight: 700;
+	font-size: 30px;
+	letter-spacing: 0.15px;
+	text-align: center;
+	color: #48555B;
 }
