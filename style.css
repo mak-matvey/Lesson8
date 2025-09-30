@@ -340,17 +340,22 @@ body {
 
 .company,
 .contact,
-.media {
+.socials {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+}
+
+.company {
+	gap: 20px;
 }
 
 .company-subheading,
 .links-subheading,
 .links-li,
 .contact-subheading,
-.address {
+.address,
+.rights-heading {
 	font-size: 11px;
 	letter-spacing: 0.85px;
 	color: white;
@@ -416,4 +421,16 @@ body {
 	flex-direction: column;
 	gap: 20px;
 	font-style: normal;
+}
+
+.rights {
+	background-color: #171819;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 0;
+}
+
+.rigths-heading {
+	font-weight: 400;
 }
