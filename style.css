@@ -17,7 +17,6 @@ body {
 
 .container {
 	margin: 0 auto;
-	padding: 0 15px;
 	max-width: 940px;
 }
 
@@ -95,18 +94,13 @@ body {
 }
 
 .sections-container {
-	width: 100vw;
-	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 65px 0;
 }
 
 .our-story-section {
-	align-items: center;
-	width: 941px;
-	height: 344px;
+	padding: 65px 0;
 }
 
 .first-section-heading {
@@ -135,47 +129,30 @@ body {
 
 .story-content-wrapper {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: flex-start;
-	width: 100%;
-	margin-top: 15px;
 }
 
 .story-content-text {
-	flex: 0 0 50%;
-	max-width: 35%;
-	flex-wrap: 1;
+	max-width: 40%;
 }
 
 .images {
-	align-self: flex-end;
-	height: 224px;
-	flex: 0 0 65%;
-	margin-left: 60px;
-	margin-bottom: 30px;
 	display: flex;
-	align-items: flex-end;
+	align-self: flex-end;
+	justify-content: flex-end;
+	gap: 25px;
 }
 
 .we-plan {
 	background-image: url('img/Bitmap.jpeg');
-	margin-left: 70px;
-}
-
-.story-content img {
-	margin-bottom: 30px;
-}
-
-.story-content-heading,
-.story-content-subheading {
-	text-align: left;
 }
 
 .story-content-subheading {
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 2.3;
-	margin: 30px 0;
+	margin-top: 30px;
 	letter-spacing: 0.19px;
 }
 
@@ -190,7 +167,6 @@ body {
 .we-plan,
 .we-manage,
 .we-build {
-	margin-right: 25px;
 	height: 224px;
 	width: 140px;
 	background-size: cover;
@@ -207,16 +183,11 @@ body {
 	color: white;
 }
 
-.our-capabilities-section {
-	margin-top: 200px;
-	max-height: 446px;
-	max-width: 940px;
-}
-
 .capabilities-content-wrapper {
 	display: flex;
-	align-items: space-between;
+	justify-content: space-between;
 	gap: 70px;
+	max-height: 40px;
 }
 
 .our-capabilities-heading {
@@ -230,7 +201,6 @@ body {
 	font-size: 11px;
 	line-height: 1.9;
 	letter-spacing: 0.2px;
-	margin-left: 10px;
 	text-align: left;
 	white-space: nowrap;
 }
@@ -254,6 +224,7 @@ body {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 }
+
 .capabilities-descrition {
 	margin-top: 60px;
 	display: flex;
@@ -357,4 +328,92 @@ body {
 	letter-spacing: 0.07px;
 	padding-left: 15px;
 	border: none;
+}
+
+.faq {
+	background-color: #141a20;
+	padding: 50px 150px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.company,
+.contact,
+.media {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.company-subheading,
+.links-subheading,
+.links-li,
+.contact-subheading,
+.address {
+	font-size: 11px;
+	letter-spacing: 0.85px;
+	color: white;
+	font-weight: 100;
+}
+
+.company-subheading {
+	max-width: 250px;
+}
+
+.footer-logo {
+	height: 23px;
+	width: 100px;
+}
+
+.links {
+	display: flex;
+	justify-content: space-between;
+}
+
+.links-list li {
+	list-style: none;
+}
+
+.links-li {
+	font-weight: 600;
+	line-height: 2.5;
+}
+
+.links-separated-1,
+.links-separated-2 {
+	margin: 0 20px;
+}
+
+.links-separated-3 {
+	margin-left: 20px;
+}
+
+.links-subheading-block {
+	margin-bottom: 10px;
+}
+
+.links-separated-2,
+.links-separated-3 {
+	margin-top: 20px;
+}
+
+.address {
+	max-width: 128px;
+}
+
+.contact-subheading {
+	margin-bottom: 20px;
+}
+
+.address a {
+	text-decoration: none;
+	color: white;
+}
+
+.address {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	font-style: normal;
 }
